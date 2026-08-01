@@ -5,7 +5,7 @@ local M = {}
 function M.generate(colors, info)
 	colors.extra = info.extra
 	colors.url = info.url
-	colors.upstream = info.upsteam
+	colors.upstream = info.upstream
 	colors.theme = info.theme
 	local foot_colors = {}
 	for k, v in pairs(colors) do
@@ -21,7 +21,7 @@ function M.generate(colors, info)
 # upstream: ${upstream}
 # author: Andrea Schiavini (original code by Casey Miller)
 
-[colors]
+[colors-dark]
 cursor=${bg} ${fg}
 foreground=${fg}
 background=${bg}
