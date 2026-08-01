@@ -1,0 +1,98 @@
+# name: KATATONIA colors for Yazi
+# url: https://github.com/sxyazi/yazi
+# upstream: ${upstream}
+# author: Andrea Schiavini (original code by Casey Miller)
+
+[manager]
+cwd = { fg = "#c080c0" }
+
+hovered         = { fg = "#d0d0d0", bg = "#280028" }
+preview_hovered = { fg = "#d0d0d0", bg = "#280028" }
+
+find_keyword  = { fg = "#804080", italic = true }
+find_position = { fg = "#804080", bg = "reset", italic = true }
+
+marker_copied   = { fg = "#9a4f9a" }
+marker_cut      = { fg = "#804080" }
+marker_selected = { fg = "#804080" }
+
+tab_active   = { fg = "#804080", bg = "#300030" }
+tab_inactive = { fg = "#505050", bg = "#300030" }
+tab_width    = 1
+
+count_cut      = { fg = "#804080", bg = "#280028" }
+count_copied   = { fg = "#804080", bg = "#280028" }
+count_selected = { fg = "#804080", bg = "#280028" }
+
+border_symbol = "│"
+border_style  = { fg = "#505050" }
+
+[mode]
+normal_main   = { fg = "#101010", bg = "#e0e0e0", bold = true }
+normal_alt    = { fg = "#101010", bg = "#e0e0e0", bold = true }
+select_main   = { fg = "#101010", bg = "#a060a0", bold = true }
+select_alt    = { fg = "#101010", bg = "#a060a0", bold = true }
+unset_main    = { fg = "#101010", bg = "#9a4f9a", bold = true }
+unset_alt     = { fg = "#101010", bg = "#9a4f9a", bold = true }
+
+[status]
+separator_open  = ""
+separator_close = ""
+separator_style = { fg = "#300030", bg = "#300030" }
+
+progress_label  = { fg = "#804080", bold = true }
+progress_normal = { fg = "#804080", bg = "#300030" }
+progress_error  = { fg = "#101010", bg = "#804080" }
+
+permissions_t = { fg = "#d0d0d0" }
+permissions_r = { fg = "#c080c0" }
+permissions_w = { fg = "#804080" }
+permissions_x = { fg = "#e0e0e0" }
+permissions_s = { fg = "#b070b0" }
+
+[input]
+border   = { fg = "#505050" }
+title    = {}
+value    = {}
+selected = { reversed = true }
+
+[select]
+border   = { fg = "#505050" }
+active   = { fg = "#a060a0" }
+inactive = {}
+
+[tasks]
+border  = { fg = "#505050" }
+title   = {}
+hovered = { underline = true }
+
+[which]
+mask            = { bg = "#0E0E0E" }
+cand            = { fg = "#d0d0d0" }
+rest            = { fg = "#6a2f6a" }
+desc            = { fg = "#9a4f9a" }
+separator       = "  "
+separator_style = { fg = "#b070b0"}
+
+[help]
+on      = { fg = "#6a2f6a" }
+run    = { fg = "#9a4f9a" }
+desc    = { fg = "#505050" }
+hovered = { fg = "#d0d0d0", bg = "#280028", bold = true }
+footer  = { fg = "#505050", bg = "#280028" }
+
+[filetype]
+rules = [
+# Media
+{ mime = "image/*", fg = "#6a2f6a"},
+{ mime = "{audio,video}/*", fg = "#9a4f9a"},
+
+# Archives
+{ mime = "application/{,g}zip", fg = "#804080"},
+{ mime = "application/x-{tar,bzip*,7z-compressed,xz,rar}", fg = "#804080"},
+
+# Fallback
+{ name = "*", fg = "#d0d0d0"},
+{ name = "*/", fg = "#c080c0"}
+]
+  

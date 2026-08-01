@@ -1,0 +1,45 @@
+# name: KATATONIA colors for Alacritty
+# url: https://github.com/alacritty/alacritty
+# upstream: ${upstream}
+# author: Andrea Schiavini (original code by Casey Miller)
+
+# Default colors
+[colors.primary]
+background = '#101010'
+# alternate, darker background = '#200020'
+foreground = '#d0d0d0'
+
+#[colors.cursor]
+#cursor = '#d0d0d0'
+#text = '#101010'
+
+# Normal colors
+[colors.normal]
+black = '#200020'
+red = '#804080'
+green = '#d0d0d0'
+yellow = '#c080c0'
+blue = '#e0e0e0'
+magenta = '#a060a0'
+cyan = '#9a4f9a'
+white = '#d0d0d0'
+
+# Bright colors
+[colors.bright]
+black = '#505050'
+red = '#804080'
+green = '#d0d0d0'
+yellow = '#c080c0'
+blue = '#e0e0e0'
+magenta = '#6a2f6a'
+cyan = '#9a4f9a'
+white = '#d0d0d0'
+
+# Indexed Colors
+[[colors.indexed_colors]]
+index = 16
+color = '#e0e0e0'
+
+[[colors.indexed_colors]]
+index = 17
+color = '#804080'

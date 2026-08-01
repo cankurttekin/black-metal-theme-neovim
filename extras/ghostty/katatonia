@@ -1,0 +1,33 @@
+# vim:ft=ghostty
+
+# name: KATATONIA colors for Ghostty
+# url: https://ghostty.org/
+# upstream: ${upstream}
+# author: Andrea Schiavini (original code by Casey Miller)
+
+background = #101010
+# alternate, darker background #200020
+foreground = #d0d0d0
+selection-background = #300030
+selection-foreground = #d0d0d0
+cursor-color = #d0d0d0
+
+# normal
+palette = 0=#200020
+palette = 1=#804080
+palette = 2=#d0d0d0
+palette = 3=#c080c0
+palette = 4=#e0e0e0
+palette = 5=#a060a0
+palette = 6=#9a4f9a
+palette = 7=#d0d0d0
+
+# bright
+palette = 8=#505050
+palette = 9=#804080
+palette = 10=#d0d0d0
+palette = 11=#c080c0
+palette = 12=#e0e0e0
+palette = 13=#6a2f6a
+palette = 14=#9a4f9a
+palette = 15=#d0d0d0

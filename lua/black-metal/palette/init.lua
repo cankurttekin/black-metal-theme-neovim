@@ -45,6 +45,7 @@ M.themes = {
 	emperor = "emperor",
 	gorgoroth = "gorgoroth",
 	immortal = "immortal",
+	katatonia = "katatonia",
 	khold = "khold",
 	marduk = "marduk",
 	mayhem = "mayhem",

@@ -1,0 +1,48 @@
+[colors]
+foreground = "#d0d0d0"
+background = "#101010"
+# background = "#200020" # alternate, darker bg
+cursor_bg = "#d0d0d0"
+cursor_border = "#d0d0d0"
+cursor_fg = "#101010"
+selection_bg = "#300030"
+selection_fg = "#d0d0d0"
+split = "#505050"
+compose_cursor = "#e0e0e0"
+scrollbar_thumb = "#505050"
+
+ansi = ["#200020", "#804080", "#d0d0d0", "#c080c0", "#e0e0e0", "#a060a0", "#9a4f9a", "#d0d0d0"]
+brights = ["#505050", "#804080", "#d0d0d0", "#c080c0", "#e0e0e0", "#6a2f6a", "#9a4f9a", "#d0d0d0"]
+
+[colors.tab_bar]
+inactive_tab_edge = "#505050"
+background = "#101010"
+
+[colors.tab_bar.active_tab]
+fg_color = "#804080"
+bg_color = "#300030"
+
+[colors.tab_bar.inactive_tab]
+fg_color = "#505050"
+bg_color = "#280028"
+
+[colors.tab_bar.inactive_tab_hover]
+fg_color = "#505050"
+bg_color = "#280028"
+# intensity = "Bold"
+
+[colors.tab_bar.new_tab_hover]
+fg_color = "#804080"
+bg_color = "#300030"
+intensity = "Bold"
+
+[colors.tab_bar.new_tab]
+fg_color = "#804080"
+bg_color = "#101010"
+
+[metadata]
+aliases = []
+name = "KATATONIA"
+url = "https://wezfurlong.org/wezterm/config/files.html"
+upstream = "${upstream}"
+author = "Andrea Schiavini (original code by Casey Miller)"

@@ -48,6 +48,10 @@ Here are the included themes. Each band has a default theme (on the left) and an
 
 ![khold-full](https://github.com/user-attachments/assets/78d95824-0ad7-4cdc-98ea-0d29bf56f798)
 
+### Katatonia
+
+![katatonia-full](https://github.com/user-attachments/assets/PLACEHOLDER)
+
 ### Marduk
 
 ![marduk-full](https://github.com/user-attachments/assets/9dca9fea-7a70-490c-b2de-798dcfa8d3f4)
@@ -101,7 +105,7 @@ With lazy.nvim:
 
 ## Configuration
 
-There are 16 themes included, each with a dark, alternative and light variant. Yes, I know, light variants aren't `TRVE`. Just don't use them if you don't like them.
+There are 17 themes included, each with a dark, alternative and light variant. Yes, I know, light variants aren't `TRVE`. Just don't use them if you don't like them.
 The light theme is used when `{ variant = "light" }` is passed to `setup(options)` or when `vim.o.background = "light"`.
 
 If you are ok with the default config, just load themes with either `:colorscheme <band_name>` or `:colorscheme <band_name>-alt`. If you need further customization, here you go: 
@@ -112,7 +116,7 @@ Default options are given below:
 require("black-metal").setup({
   -----MAIN OPTIONS-----
   --
-  -- Can be one of: bathory | burzum | dark-funeral | darkthrone | emperor | gorgoroth | immortal | impaled-nazarene | khold | marduk | mayhem | nile | taake | thyrfing | venom | windir
+  -- Can be one of: bathory | burzum | dark-funeral | darkthrone | emperor | gorgoroth | immortal | impaled-nazarene | katatonia | khold | marduk | mayhem | nile | taake | thyrfing | venom | windir
   theme = "bathory",
   -- Can be one of: 'light' | 'dark', or set via vim.o.background
   variant = "dark",
@@ -222,6 +226,7 @@ See `black-metal.palette` for color names.
 - Gorgoroth: Twilight of the Idols - In Conspiracy with Satan, 2003
 - Immortal: At the heart of winter, 1999
 - Impaled Nazarene: Tol Cormpt Norz Norz Norz..., 1993
+- Katatonia: Brave Murder Day, 1996
 - Khold: Phantom, 2002
 - Marduk: Panzer Division Marduk, 1999
 - Mayhem: The dawn of the black hearts, 1995
